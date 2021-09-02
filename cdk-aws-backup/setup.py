@@ -20,6 +20,7 @@ setuptools.setup(
 
     install_requires=[
         "aws-cdk.core==1.119.0",
+        "aws_cdk.aws_backup",
     ],
 
     python_requires=">=3.6",
