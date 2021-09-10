@@ -4,8 +4,6 @@ from aws_cdk import (
     aws_events as event
 )
 
-
-
 class CdkAwsBackupStack(core.Stack):
 
     def __init__(self, scope: core.Construct, id: str, env, **kwargs) -> None:
